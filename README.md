@@ -25,6 +25,21 @@ require('procmon-agent')(options);
 * autoStart: (default: true) - make agent listen
 * path: unix socket server path: (defaults to `/tmp/procmon-agent-{PID}.sock`)
 
+### Close
+
+You can stop the agent:
+
+```javascript
+var agent = require('procmon-agent')(options);
+
+// ...
+
+agent.close();
+
+```
+
+
+
 ## License
 
 ISC
