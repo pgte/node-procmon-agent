@@ -15,6 +15,8 @@ function Server(options) {
 
     oldListen.apply(this, args);
   }
+  server.unref();
+
   return server;
 
   function handleConnection(conn) {
