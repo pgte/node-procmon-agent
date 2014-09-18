@@ -1,0 +1,20 @@
+{
+  "name": "procmon-agent",
+  "version": "1.0.0",
+  "description": "Node Procmon Agent",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pgte/node-procmon-agent"
+  },
+  "author": {
+    "name": "Pedro Teixeira",
+    "email": "i@pgte.me"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "json-duplex-stream": "^1.1.0",
+    "toobusy": "^0.2.4",
+    "xtend": "^4.0.0"
+  }
+}
