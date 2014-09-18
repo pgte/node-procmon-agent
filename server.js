@@ -17,6 +17,11 @@ function Server(options) {
   }
   server.unref();
 
+  server.on('connection', function(c) {
+    c.unref();
+  });
+
+
   return server;
 
   function handleConnection(conn) {
